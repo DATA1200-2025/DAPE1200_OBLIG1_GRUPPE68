@@ -7,6 +7,36 @@ body {
     background-color: #f4f4f4;
 }
 
+/* -- Navbar -- */
+
+#navbar {
+    background-color: burlywood;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    align-self: center;
+    text-decoration: none;
+}
+
+#logo:hover {
+    color: black;
+    transition: 0.3s;
+
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
 /* -- Julius -- */
 
 /* -- Daniel -- */
