@@ -37,6 +37,19 @@ body {
     list-style-type: none;
 }
 
+/* -- Footer -- */
+
+footer {
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
 /* -- Julius -- */
 
 /* -- Daniel -- */
