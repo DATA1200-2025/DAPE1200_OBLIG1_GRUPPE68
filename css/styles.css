@@ -10,7 +10,7 @@ body {
 /* -- Navbar -- */
 
 #navbar {
-    background-color: burlywood;
+    background-color: #ffd500;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -20,13 +20,13 @@ body {
 #logo {
     font-size: x-large;
     font-weight: bold;
-    color: white;
+    color: black;
     align-self: center;
     text-decoration: none;
 }
 
 #logo:hover {
-    color: black;
+    color: rgb(47, 47, 47);
     transition: 0.3s;
 
 }
@@ -40,8 +40,8 @@ body {
 /* -- Footer -- */
 
 footer {
-    background-color: burlywood;
-    color: white;
+    background-color: #ffd500;
+    color: black;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -59,4 +59,19 @@ footer {
 /* -- Jonette -- */
 
 /* -- Mina -- */
-
+.Eksempelstrikk {
+    width: 100%;
+}
+#Mina-tittel {
+    text-align: center;
+}
+#Strikkekonsulent {
+    text-align: center;
+}
+.Mina-main {
+    margin-bottom: 3rem;    
+}
+.Mina-article2 {
+    margin-bottom: 20rem;
+    margin-left: 2rem;
+}
