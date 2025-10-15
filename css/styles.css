@@ -59,4 +59,19 @@ footer {
 /* -- Jonette -- */
 
 /* -- Mina -- */
-
+.Eksempelstrikk {
+    width: 100%;
+}
+#Mina-tittel {
+    text-align: center;
+}
+#Strikkekonsulent {
+    text-align: center;
+}
+.Mina-main {
+    margin-bottom: 3rem;    
+}
+.Mina-article2 {
+    margin-bottom: 20rem;
+    margin-left: 2rem;
+}
