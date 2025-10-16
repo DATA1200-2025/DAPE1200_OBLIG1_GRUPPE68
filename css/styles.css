@@ -57,8 +57,80 @@ footer {
 /* -- Martin -- */
 
 /* -- Jonette -- */
-.Jonettep1 {
-    margin-bottom: 25rem;
+#JonetteTittel {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#JonetteUnderoverskrift {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Toppbilde {
+    width: 100%;
+}
+.JonetteArticle1 {
+    display: flex;
+    width: 100%;
+}
+.SectionJ1Venstre {
+    margin-top: 0;
+    margin-bottom: 20;
+    text-align: left;
+    max-width: 45%;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Produktbilde {
+    max-width: 45%;
+}
+.JonetteArticle2 {
+    display: flex;
+    width: 100%;
+}
+.SectionJ2Høyre {
+    max-width: 45%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Fønebilde {
+    max-width: 45%;
+    height: auto;
+    object-fit: cover;
+}
+.JonetteArticle3 {
+    display: flex;
+    width: 100%;
+}
+.SectionJ3Venstre {
+    text-align: left;
+    max-width: 45%;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Finishingbilde {
+    max-width: 40%;
+}
+.SectionJ4Venstre {
+    text-align: left;
+    max-width: 45%;
+    flex: 1;
+    padding: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Bunnbilde {
+    margin-bottom: 4rem;
+    width: 100%;
 }
 
 
