@@ -75,25 +75,24 @@ footer {
     width: 100%;
 }
 .SectionJ1Venstre {
-    margin-top: 0;
-    margin-bottom: 20;
-    text-align: left;
-    max-width: 45%;
+    max-width: 40%;
     padding: 70px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Produktbilde {
-    max-width: 45%;
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
 }
 .JonetteArticle2 {
     display: flex;
     width: 100%;
 }
 .SectionJ2Høyre {
-    max-width: 45%;
+    max-width: 40%;
     padding: 70px;
     display: flex;
     flex-direction: column;
@@ -101,7 +100,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Fønebilde {
-    max-width: 45%;
+    max-width: 50%;
     height: auto;
     object-fit: cover;
 }
@@ -111,7 +110,7 @@ footer {
 }
 .SectionJ3Venstre {
     text-align: left;
-    max-width: 45%;
+    max-width: 40%;
     padding: 70px;
     display: flex;
     align-items: center;
@@ -120,10 +119,12 @@ footer {
 }
 .Finishingbilde {
     max-width: 40%;
+    height: auto;
+    object-fit: cover;
 }
 .SectionJ4Venstre {
     text-align: left;
-    max-width: 45%;
+    max-width: 40%;
     flex: 1;
     padding: 70px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
