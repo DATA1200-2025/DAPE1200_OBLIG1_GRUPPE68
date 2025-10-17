@@ -83,9 +83,11 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Produktbilde {
-    max-width: 50%;
+    max-width: 70%;
+    padding: 40px;
     height: auto;
     object-fit: cover;
+    margin: 50px 0 0 ;
 }
 .JonetteArticle2 {
     display: flex;
@@ -100,9 +102,11 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Fønebilde {
-    max-width: 50%;
+    max-width: 70%;
+    padding: 40px;
     height: auto;
     object-fit: cover;
+    margin: 50px 0 0;
 }
 .JonetteArticle3 {
     display: flex;
@@ -118,9 +122,11 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Finishingbilde {
-    max-width: 40%;
+    max-width: 70%;
+    padding: 40px;
     height: auto;
     object-fit: cover;
+    margin: 50px 0 0;
 }
 .SectionJ4Venstre {
     text-align: left;
