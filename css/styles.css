@@ -65,14 +65,15 @@ main {
     display: flex;
     gap: 1em;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #employee-list li {
-    background-image: linear-gradient(to bottom, rgb(243, 243, 243), rgb(229, 229, 229));
     border-radius: 1em;
     padding: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
+    border: #ffcc00 2px solid;
 }
 #employee-list img {
     max-width: 5em;
@@ -236,7 +237,7 @@ body {
     gap: 2em;
     margin-bottom: 4em;
     flex-wrap: wrap;
-    background-image: linear-gradient(to bottom, rgb(243, 243, 243), rgb(229, 229, 229));
+    background-image: linear-gradient(to bottom, #fff2b0, rgb(252, 255, 215));
     padding: 2em;
     border-radius: 2em;
 }
