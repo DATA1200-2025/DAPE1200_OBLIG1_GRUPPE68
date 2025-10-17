@@ -25,18 +25,47 @@ body {
     text-decoration: none;
 }
 
-#logo:hover {
-    color: rgb(47, 47, 47);
-    transition: 0.3s;
-
-}
 #navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
 }
+#navbar li {
+    text-decoration: none;
+    
+}
+#navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+    padding: 0.5em;
+}
 
+#navbar a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+main {
+    margin-left: 3em;
+    margin-right: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#employee-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+#employee-list img {
+    height: 5em;
+    width: 5em;
+}
 /* -- Footer -- */
 
 footer {
@@ -53,6 +82,132 @@ footer {
 /* -- Julius -- */
 
 /* -- Daniel -- */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #FFFDF5;
+  color: #1E1E1E;
+}
+
+#profil-container {
+  display: flex;
+  justify-content: center;
+  padding: 4rem, 2rem, 2rem;
+}
+
+#profil-kort {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border-top: 8px soldi #ffd500
+}
+
+#profil-bilde {
+  flex: 1 1 300px;
+  background-color: #FFF4B0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profil-bilde img {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 50%;
+  margin: 2rem;
+  border: 5px solid #ffd500;
+}
+
+#profil-info {
+  flex: 2 1 400px;
+  padding: 2rem 3rem;
+}
+
+#profil-navn {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1e1e1e;
+}
+
+#profil-tittel {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+#profil-bio {
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #2f2f2f;
+  margin-bottom: 2rem;
+}
+
+#profil-lenker {
+  display: flex;
+  gap: 1rem;
+}
+
+.profil-btn,
+.profil-btn-sekundær {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.profil-btn {
+  background-color: #ffd500;
+  color: white;
+  border: 2px solid #ffcc00
+}
+
+.profil-btn:hover {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+}
+
+.profil-btn-sekundær {
+  border: 2px solid #ffd500;
+  color: #1e1e1e;
+  background-color: transparent;
+}
+
+.profil-btn-sekundær:hover {
+  background-color: #ffd500;
+  color: #1e1e1e;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  #profil-kort {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #profil-info {
+    padding: 2rem;
+  }
+
+  #profil-lenker {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
 
 /* -- Martin -- */
 
